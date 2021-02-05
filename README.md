@@ -4,6 +4,9 @@ Takes in current inventory count, previous usage, future allocations, and wareho
 
 
 ///add seperate output for imminent issues regarding inventory
+
 ///make executable 
+
 ///idk add some color maybe
+
 ///get people to actually use it
