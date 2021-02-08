@@ -1078,9 +1078,17 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
+  ('pkg_resources._vendor.packaging',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'c:\\users\\nitro '
@@ -1090,25 +1098,37 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\uuid.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.tags',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.packaging.requirements',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
    'PYMODULE'),
   ('pkg_resources._vendor.appdirs',
    'c:\\users\\nitro '
@@ -1122,29 +1142,9 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\win32comext\\shell\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
+  ('pkg_resources._vendor',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.six',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('pkg_resources.extern',
    'c:\\users\\nitro '
@@ -1154,13 +1154,13 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\imp.py',
    'PYMODULE'),
-  ('_py_abc',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\_py_abc.py',
    'PYMODULE'),
   ('tracemalloc',
    'c:\\users\\nitro '
@@ -1169,150 +1169,6 @@
   ('CleanData',
    'C:\\Users\\Nitro 5\\Documents\\Inventory '
    'Project\\InventoryShipmentAnalysis\\ExecutableTest\\CleanData.py',
-   'PYMODULE'),
-  ('tkinter',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\__init__.py',
-   'PYMODULE'),
-  ('tkinter.commondialog',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\commondialog.py',
-   'PYMODULE'),
-  ('tkinter.constants',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\constants.py',
-   'PYMODULE'),
-  ('xlsxwriter',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\__init__.py',
-   'PYMODULE'),
-  ('xlsxwriter.workbook',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\workbook.py',
-   'PYMODULE'),
-  ('xlsxwriter.exceptions',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\exceptions.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_stock',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_stock.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_scatter',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_scatter.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_radar',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_radar.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_line',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_line.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_doughnut',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_doughnut.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_column',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_column.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_bar',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_bar.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_area',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_area.py',
-   'PYMODULE'),
-  ('xlsxwriter.utility',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\utility.py',
-   'PYMODULE'),
-  ('xlsxwriter.packager',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\packager.py',
-   'PYMODULE'),
-  ('xlsxwriter.comments',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\comments.py',
-   'PYMODULE'),
-  ('xlsxwriter.table',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\table.py',
-   'PYMODULE'),
-  ('xlsxwriter.vml',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\vml.py',
-   'PYMODULE'),
-  ('xlsxwriter.theme',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\theme.py',
-   'PYMODULE'),
-  ('xlsxwriter.styles',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\styles.py',
-   'PYMODULE'),
-  ('xlsxwriter.relationships',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\relationships.py',
-   'PYMODULE'),
-  ('xlsxwriter.custom',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\custom.py',
-   'PYMODULE'),
-  ('xlsxwriter.core',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\core.py',
-   'PYMODULE'),
-  ('xlsxwriter.contenttypes',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\contenttypes.py',
-   'PYMODULE'),
-  ('xlsxwriter.app',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\app.py',
-   'PYMODULE'),
-  ('xlsxwriter.format',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\format.py',
-   'PYMODULE'),
-  ('xlsxwriter.sharedstrings',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\sharedstrings.py',
-   'PYMODULE'),
-  ('xlsxwriter.chartsheet',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chartsheet.py',
-   'PYMODULE'),
-  ('xlsxwriter.drawing',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\drawing.py',
-   'PYMODULE'),
-  ('xlsxwriter.shape',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\shape.py',
-   'PYMODULE'),
-  ('xlsxwriter.worksheet',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\worksheet.py',
-   'PYMODULE'),
-  ('xlsxwriter.compatibility',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\compatibility.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart_pie',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_pie.py',
-   'PYMODULE'),
-  ('xlsxwriter.chart',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart.py',
-   'PYMODULE'),
-  ('xlsxwriter.xmlwriter',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\xmlwriter.py',
    'PYMODULE'),
   ('numpy',
    'c:\\users\\nitro '
@@ -1478,61 +1334,61 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging',
+  ('setuptools._vendor.pyparsing',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._structures',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.version',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
    'PYMODULE'),
-  ('setuptools._vendor.ordered_set',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
-   'PYMODULE'),
-  ('setuptools._vendor.six',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\six.py',
-   'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
-   'PYMODULE'),
-  ('setuptools._vendor',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.requirements',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.utils',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.markers',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.__about__',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
   ('setuptools._vendor.packaging._compat',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.tags',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.specifiers',
+  ('setuptools._vendor.ordered_set',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.six',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
   ('setuptools.msvc',
    'c:\\users\\nitro '
@@ -2222,6 +2078,458 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\numpy\\_globals.py',
    'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('xlsxwriter',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\__init__.py',
+   'PYMODULE'),
+  ('xlsxwriter.workbook',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\workbook.py',
+   'PYMODULE'),
+  ('xlsxwriter.exceptions',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\exceptions.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_stock',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_stock.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_scatter',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_scatter.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_radar',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_radar.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_line',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_line.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_doughnut',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_doughnut.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_column',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_column.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_bar',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_bar.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_area',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_area.py',
+   'PYMODULE'),
+  ('xlsxwriter.utility',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\utility.py',
+   'PYMODULE'),
+  ('xlsxwriter.packager',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\packager.py',
+   'PYMODULE'),
+  ('xlsxwriter.comments',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\comments.py',
+   'PYMODULE'),
+  ('xlsxwriter.table',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\table.py',
+   'PYMODULE'),
+  ('xlsxwriter.vml',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\vml.py',
+   'PYMODULE'),
+  ('xlsxwriter.theme',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\theme.py',
+   'PYMODULE'),
+  ('xlsxwriter.styles',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\styles.py',
+   'PYMODULE'),
+  ('xlsxwriter.relationships',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\relationships.py',
+   'PYMODULE'),
+  ('xlsxwriter.custom',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\custom.py',
+   'PYMODULE'),
+  ('xlsxwriter.core',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\core.py',
+   'PYMODULE'),
+  ('xlsxwriter.contenttypes',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\contenttypes.py',
+   'PYMODULE'),
+  ('xlsxwriter.app',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\app.py',
+   'PYMODULE'),
+  ('xlsxwriter.format',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\format.py',
+   'PYMODULE'),
+  ('xlsxwriter.sharedstrings',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\sharedstrings.py',
+   'PYMODULE'),
+  ('xlsxwriter.chartsheet',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chartsheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.drawing',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\drawing.py',
+   'PYMODULE'),
+  ('xlsxwriter.shape',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\shape.py',
+   'PYMODULE'),
+  ('xlsxwriter.worksheet',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\worksheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.compatibility',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\compatibility.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_pie',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart_pie.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\chart.py',
+   'PYMODULE'),
+  ('xlsxwriter.xmlwriter',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\xlsxwriter\\xmlwriter.py',
+   'PYMODULE'),
+  ('pandas',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.latex',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.roperator',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.ops.methods',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.numeric',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util.testing',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\testing.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_testing.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.dtype',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\parsers.py',
+   'PYMODULE'),
+  ('pandas.io.date_converters',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.compat.chainmap',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\chainmap.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
   ('pandas.io.formats.excel',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\excel.py',
@@ -2234,14 +2542,6 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\excel\\_xlwt.py',
    'PYMODULE'),
-  ('pandas._libs',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\__init__.py',
-   'PYMODULE'),
-  ('pandas._libs.tslibs',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
-   'PYMODULE'),
   ('pandas.io.excel._xlsxwriter',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
@@ -2249,14 +2549,6 @@
   ('pandas.io.excel._util',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\excel\\_util.py',
-   'PYMODULE'),
-  ('pandas.compat._optional',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\_optional.py',
-   'PYMODULE'),
-  ('pandas.compat',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\__init__.py',
    'PYMODULE'),
   ('pandas.io.excel._openpyxl',
    'c:\\users\\nitro '
@@ -3038,381 +3330,33 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
    'PYMODULE'),
-  ('pandas.io.parsers',
+  ('pandas.io.formats.css',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\parsers.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\css.py',
    'PYMODULE'),
-  ('pandas.io.date_converters',
+  ('pandas.io.formats._color_data',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
    'PYMODULE'),
-  ('pandas.core.tools.datetimes',
+  ('pandas.core.dtypes',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
    'PYMODULE'),
-  ('pandas.core.tools.times',
+  ('pandas.core.computation.parsing',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\times.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.datetimes',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
-   'PYMODULE'),
-  ('pandas.core.indexes',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
-   'PYMODULE'),
-  ('dateutil.parser',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\parser\\__init__.py',
-   'PYMODULE'),
-  ('dateutil.parser.isoparser',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
-   'PYMODULE'),
-  ('six',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\six.py',
-   'PYMODULE'),
-  ('dateutil.tz',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\__init__.py',
-   'PYMODULE'),
-  ('dateutil.tz.tz',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\tz.py',
-   'PYMODULE'),
-  ('dateutil.zoneinfo',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
-   'PYMODULE'),
-  ('dateutil.rrule',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\rrule.py',
-   'PYMODULE'),
-  ('dateutil.easter',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\easter.py',
-   'PYMODULE'),
-  ('dateutil._common',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\_common.py',
-   'PYMODULE'),
-  ('dateutil.relativedelta',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\relativedelta.py',
-   'PYMODULE'),
-  ('dateutil.tz.win',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\win.py',
-   'PYMODULE'),
-  ('ctypes.wintypes',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\ctypes\\wintypes.py',
-   'PYMODULE'),
-  ('dateutil.tz._factories',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\_factories.py',
-   'PYMODULE'),
-  ('dateutil.tz._common',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\_common.py',
-   'PYMODULE'),
-  ('dateutil.parser._parser',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\parser\\_parser.py',
-   'PYMODULE'),
-  ('dateutil',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\__init__.py',
-   'PYMODULE'),
-  ('dateutil._version',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\_version.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.extension',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
-   'PYMODULE'),
-  ('pandas.core.ops',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.ops.roperator',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\roperator.py',
-   'PYMODULE'),
-  ('pandas.core.ops.methods',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
-   'PYMODULE'),
-  ('pandas.core.ops.mask_ops',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
-   'PYMODULE'),
-  ('pandas.core.ops.invalid',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
-   'PYMODULE'),
-  ('pandas.core.ops.docstrings',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
-   'PYMODULE'),
-  ('pandas.core.ops.common',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\common.py',
-   'PYMODULE'),
-  ('pandas.core.ops.array_ops',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
-   'PYMODULE'),
-  ('pandas.core.computation.expressions',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
-   'PYMODULE'),
-  ('pandas.core.computation',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.computation.check',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\check.py',
-   'PYMODULE'),
-  ('pandas.core.ops.dispatch',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
-   'PYMODULE'),
-  ('pandas.core.construction',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\construction.py',
-   'PYMODULE'),
-  ('pandas.core.dtypes.base',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
-   'PYMODULE'),
-  ('pandas.core.ops.missing',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
-   'PYMODULE'),
-  ('pandas.core.indexers',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexers.py',
-   'PYMODULE'),
-  ('pandas.core.arrays._mixins',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.base',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.string_arrow',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
-   'PYMODULE'),
-  ('pandas.core.arraylike',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arraylike.py',
-   'PYMODULE'),
-  ('pandas.core.internals',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.internals.managers',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
-   'PYMODULE'),
-  ('pandas.core.internals.ops',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\ops.py',
-   'PYMODULE'),
-  ('pandas.core.base',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\base.py',
-   'PYMODULE'),
-  ('pandas.core.nanops',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\nanops.py',
-   'PYMODULE'),
-  ('pandas.core.accessor',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\accessor.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.sparse',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.sparse.dtype',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.sparse.array',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.sparse.accessor',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.sparse.scipy_sparse',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
-   'PYMODULE'),
-  ('pandas.core.dtypes.concat',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.categorical',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
-   'PYMODULE'),
-  ('pandas.core.reshape.concat',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
-   'PYMODULE'),
-  ('pandas.core.reshape',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
-   'PYMODULE'),
-  ('pandas.io.formats.console',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\console.py',
-   'PYMODULE'),
-  ('pandas.core.strings.object_array',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\strings\\object_array.py',
-   'PYMODULE'),
-  ('pandas.core.strings',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\strings\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.strings.accessor',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\strings\\accessor.py',
-   'PYMODULE'),
-  ('pandas.core.strings.base',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\strings\\base.py',
-   'PYMODULE'),
-  ('pandas.core.internals.concat',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
-   'PYMODULE'),
-  ('pandas.core.internals.blocks',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
-   'PYMODULE'),
-  ('pandas.core.array_algos.replace',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
-   'PYMODULE'),
-  ('pandas.core.array_algos',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.array_algos.masked_reductions',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
-   'PYMODULE'),
-  ('pandas.api.types',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
-   'PYMODULE'),
-  ('pandas.api',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\api\\__init__.py',
-   'PYMODULE'),
-  ('pandas.api.indexers',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
    'PYMODULE'),
   ('pandas.core.window.indexers',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\indexers.py',
    'PYMODULE'),
-  ('pandas.core.window',
+  ('pandas.core.series',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\series.py',
    'PYMODULE'),
-  ('pandas.core.window.rolling',
+  ('pandas.core.reshape.reshape',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
-   'PYMODULE'),
-  ('pandas.core.window.numba_',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
-   'PYMODULE'),
-  ('pandas.core.window.common',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\common.py',
-   'PYMODULE'),
-  ('pandas.core.util.numba_',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\util\\numba_.py',
-   'PYMODULE'),
-  ('pandas.core.util',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.groupby.base',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
-   'PYMODULE'),
-  ('pandas.core.groupby',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.groupby.groupby',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
-   'PYMODULE'),
-  ('pandas.core.resample',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\resample.py',
-   'PYMODULE'),
-  ('pandas.tseries.frequencies',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
-   'PYMODULE'),
-  ('pandas.tseries',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\tseries\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.timedeltas',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.timedeltas',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.period',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
-   'PYMODULE'),
-  ('pandas.core.arrays._arrow_utils',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\_arrow_utils.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.interval',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
-   'PYMODULE'),
-  ('pandas.core.arrays._ranges',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.datetimelike',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.period',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.numeric',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
    'PYMODULE'),
   ('pandas.core.groupby.generic',
    'c:\\users\\nitro '
@@ -3422,9 +3366,33 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\tile.py',
    'PYMODULE'),
-  ('pandas.core.reshape.merge',
+  ('pandas.core.util.numba_',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
    'PYMODULE'),
   ('pandas.plotting',
    'c:\\users\\nitro '
@@ -3470,37 +3438,109 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\timeseries.py',
    'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
   ('pandas.plotting._matplotlib.converter',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\converter.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\six.py',
    'PYMODULE'),
   ('pandas.plotting._matplotlib.boxplot',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\boxplot.py',
    'PYMODULE'),
-  ('pandas.core.groupby.grouper',
+  ('pandas.core.indexes.accessors',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
-   'PYMODULE'),
-  ('pandas.core.groupby.categorical',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
-   'PYMODULE'),
-  ('pandas.core.groupby.ops',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
-   'PYMODULE'),
-  ('pandas.core.groupby.numba_',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
    'PYMODULE'),
   ('pandas.core.aggregation',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\aggregation.py',
    'PYMODULE'),
-  ('pandas._libs.window',
+  ('pandas.core.resample',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\common.py',
    'PYMODULE'),
   ('pandas.core.window.expanding',
    'c:\\users\\nitro '
@@ -3510,53 +3550,17 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\window\\ewm.py',
    'PYMODULE'),
-  ('pandas.tseries.offsets',
+  ('pandas.core.shared_docs',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\shared_docs.py',
    'PYMODULE'),
-  ('pandas.api.extensions',
+  ('pandas.core.flags',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\flags.py',
    'PYMODULE'),
-  ('pandas.core.dtypes.api',
+  ('pandas.core.indexing',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.string_',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.masked',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.integer',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.numeric',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
-   'PYMODULE'),
-  ('pandas.core.tools.numeric',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.floating',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\floating.py',
-   'PYMODULE'),
-  ('pandas.core.sorting',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\sorting.py',
-   'PYMODULE'),
-  ('pandas.core.array_algos.transforms',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
-   'PYMODULE'),
-  ('pandas.core.missing',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\missing.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexing.py',
    'PYMODULE'),
   ('pandas.core.dtypes.inference',
    'c:\\users\\nitro '
@@ -3566,169 +3570,29 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\dataclasses.py',
    'PYMODULE'),
-  ('pandas.util._validators',
+  ('pandas.core.dtypes.base',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\_validators.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
    'PYMODULE'),
-  ('pandas.util',
+  ('pandas.core.internals.blocks',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\__init__.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
    'PYMODULE'),
-  ('pandas.util.testing',
+  ('pandas.core.array_algos.transforms',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\testing.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
    'PYMODULE'),
-  ('pandas._testing',
+  ('pandas.core.array_algos',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_testing.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
    'PYMODULE'),
-  ('pandas._config.localization',
+  ('pandas.core.array_algos.masked_reductions',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\localization.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
    'PYMODULE'),
-  ('pandas.core.util.hashing',
+  ('pandas.core.array_algos.replace',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
-   'PYMODULE'),
-  ('pandas.compat.numpy.function',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
-   'PYMODULE'),
-  ('pandas.compat.numpy',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.datetimelike',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
-   'PYMODULE'),
-  ('pandas.core.tools.timedeltas',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.base',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.numpy_',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.multi',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
-   'PYMODULE'),
-  ('pandas.core.reshape.util',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.interval',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
-   'PYMODULE'),
-  ('pandas.util._exceptions',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\_exceptions.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.category',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.range',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.frozen',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.datetimes',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
-   'PYMODULE'),
-  ('pandas.arrays',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\arrays\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.dtypes.generic',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
-   'PYMODULE'),
-  ('pandas.core.tools',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.series',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\series.py',
-   'PYMODULE'),
-  ('pandas.core.reshape.reshape',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
-   'PYMODULE'),
-  ('pandas.core.indexing',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexing.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.accessors',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
-   'PYMODULE'),
-  ('pandas.core.indexes.api',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
-   'PYMODULE'),
-  ('pandas.core.arrays',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.arrays.boolean',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
-   'PYMODULE'),
-  ('pandas.core.algorithms',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\algorithms.py',
-   'PYMODULE'),
-  ('pandas.core.internals.construction',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
-   'PYMODULE'),
-  ('pandas.core.dtypes.dtypes',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
-   'PYMODULE'),
-  ('pytz',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\__init__.py',
-   'PYMODULE'),
-  ('pytz.tzfile',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\tzfile.py',
-   'PYMODULE'),
-  ('pytz.tzinfo',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\tzinfo.py',
-   'PYMODULE'),
-  ('pytz.lazy',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\lazy.py',
-   'PYMODULE'),
-  ('pytz.exceptions',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\exceptions.py',
-   'PYMODULE'),
-  ('pandas.core.dtypes.cast',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
-   'PYMODULE'),
-  ('pandas.io.common',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\common.py',
-   'PYMODULE'),
-  ('pandas.core.shared_docs',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\shared_docs.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
    'PYMODULE'),
   ('pandas.core.frame',
    'c:\\users\\nitro '
@@ -3742,45 +3606,13 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
    'PYMODULE'),
-  ('pandas.core.computation.eval',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
-   'PYMODULE'),
-  ('pandas.core.computation.scope',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
-   'PYMODULE'),
-  ('pandas.core.computation.ops',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
-   'PYMODULE'),
-  ('pandas.core.computation.common',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\common.py',
-   'PYMODULE'),
-  ('pandas.compat.chainmap',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\chainmap.py',
-   'PYMODULE'),
-  ('pandas.core.computation.parsing',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
-   'PYMODULE'),
-  ('pandas.core.computation.expr',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
-   'PYMODULE'),
-  ('pandas.core.computation.engines',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
-   'PYMODULE'),
-  ('pandas.core.computation.align',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\align.py',
-   'PYMODULE'),
   ('pandas.io.parquet',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_utils',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\_arrow_utils.py',
    'PYMODULE'),
   ('pandas.io.feather_format',
    'c:\\users\\nitro '
@@ -3790,109 +3622,117 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\stata.py',
    'PYMODULE'),
-  ('pandas.io.gbq',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\gbq.py',
-   'PYMODULE'),
   ('pandas.io.formats.style',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
    'PYMODULE'),
   ('pandas.io.formats.info',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\info.py',
    'PYMODULE'),
+  ('pandas.io.formats.console',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
   ('pandas.core.reshape.melt',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\melt.py',
    'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
   ('pandas.errors',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\errors\\__init__.py',
-   'PYMODULE'),
-  ('pandas._config.config',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\config.py',
-   'PYMODULE'),
-  ('pandas._config',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\__init__.py',
-   'PYMODULE'),
-  ('pandas._config.display',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\display.py',
-   'PYMODULE'),
-  ('pandas._config.dates',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\dates.py',
-   'PYMODULE'),
-  ('pandas.io',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\__init__.py',
-   'PYMODULE'),
-  ('pandas.io.clipboards',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\clipboards.py',
-   'PYMODULE'),
-  ('pandas.io.clipboard',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
-   'PYMODULE'),
-  ('pandas.io.sql',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\sql.py',
-   'PYMODULE'),
-  ('sqlite3',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\sqlite3\\__init__.py',
-   'PYMODULE'),
-  ('sqlite3.dump',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\sqlite3\\dump.py',
-   'PYMODULE'),
-  ('sqlite3.dbapi2',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\sqlite3\\dbapi2.py',
-   'PYMODULE'),
-  ('pandas.core.api',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\api.py',
-   'PYMODULE'),
-  ('pandas.core.flags',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\flags.py',
-   'PYMODULE'),
-  ('pandas.io.pytables',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\pytables.py',
-   'PYMODULE'),
-  ('pandas.core.computation.pytables',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
-   'PYMODULE'),
-  ('pandas.compat.pickle_compat',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
-   'PYMODULE'),
-  ('pandas.io.json',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
-   'PYMODULE'),
-  ('pandas.io.json._table_schema',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
-   'PYMODULE'),
-  ('pandas.io.json._normalize',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
-   'PYMODULE'),
-  ('pandas.io.json._json',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\json\\_json.py',
-   'PYMODULE'),
-  ('pandas.io.formats',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
    'PYMODULE'),
   ('pandas.io.formats.printing',
    'c:\\users\\nitro '
@@ -3990,9 +3830,9 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\__init__.py',
    'PYMODULE'),
-  ('pygments.styles.monokai',
+  ('pygments.styles.borland',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\monokai.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\borland.py',
    'PYMODULE'),
   ('pygments.token',
    'C:\\Users\\Nitro '
@@ -4002,25 +3842,9 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\style.py',
    'PYMODULE'),
-  ('pygments.styles.algol',
+  ('pygments.styles.vs',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\algol.py',
-   'PYMODULE'),
-  ('pygments.styles.default',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\default.py',
-   'PYMODULE'),
-  ('pygments.styles.borland',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\borland.py',
-   'PYMODULE'),
-  ('pygments.styles.autumn',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\autumn.py',
-   'PYMODULE'),
-  ('pygments.styles.sas',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\sas.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\vs.py',
    'PYMODULE'),
   ('pygments.styles.arduino',
    'C:\\Users\\Nitro '
@@ -4030,93 +3854,69 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\rrt.py',
    'PYMODULE'),
-  ('pygments.styles.stata_light',
+  ('pygments.styles.pastie',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\stata_light.py',
-   'PYMODULE'),
-  ('pygments.styles.stata_dark',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\stata_dark.py',
-   'PYMODULE'),
-  ('pygments.styles.algol_nu',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\algol_nu.py',
-   'PYMODULE'),
-  ('pygments.styles.paraiso_dark',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\paraiso_dark.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\pastie.py',
    'PYMODULE'),
   ('pygments.styles.lovelace',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\lovelace.py',
    'PYMODULE'),
-  ('pygments.styles.inkpot',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\inkpot.py',
-   'PYMODULE'),
   ('pygments.styles.rainbow_dash',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\rainbow_dash.py',
    'PYMODULE'),
-  ('pygments.styles.native',
+  ('pygments.styles.default',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\native.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\default.py',
+   'PYMODULE'),
+  ('pygments.styles.solarized',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\solarized.py',
+   'PYMODULE'),
+  ('pygments.styles.monokai',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\monokai.py',
    'PYMODULE'),
   ('pygments.styles.abap',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\abap.py',
    'PYMODULE'),
-  ('pygments.styles.murphy',
+  ('pygments.styles.trac',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\murphy.py',
-   'PYMODULE'),
-  ('pygments.styles.vs',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\vs.py',
-   'PYMODULE'),
-  ('pygments.styles.emacs',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\emacs.py',
-   'PYMODULE'),
-  ('pygments.styles.colorful',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\colorful.py',
-   'PYMODULE'),
-  ('pygments.styles.fruity',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\fruity.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\trac.py',
    'PYMODULE'),
   ('pygments.styles.bw',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\bw.py',
    'PYMODULE'),
-  ('pygments.styles.manni',
+  ('pygments.styles.igor',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\manni.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\igor.py',
+   'PYMODULE'),
+  ('pygments.styles.murphy',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\murphy.py',
    'PYMODULE'),
   ('pygments.styles.tango',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\tango.py',
    'PYMODULE'),
-  ('pygments.styles.vim',
+  ('pygments.styles.friendly',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\vim.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\friendly.py',
    'PYMODULE'),
-  ('pygments.styles.xcode',
+  ('pygments.styles.emacs',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\xcode.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\emacs.py',
    'PYMODULE'),
-  ('pygments.styles.igor',
+  ('pygments.styles.paraiso_dark',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\igor.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\paraiso_dark.py',
    'PYMODULE'),
-  ('pygments.styles.perldoc',
+  ('pygments.styles.algol_nu',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\perldoc.py',
-   'PYMODULE'),
-  ('pygments.styles.paraiso_light',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\paraiso_light.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\algol_nu.py',
    'PYMODULE'),
   ('pygments.styles',
    'C:\\Users\\Nitro '
@@ -4130,25 +3930,65 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\plugin.py',
    'PYMODULE'),
-  ('pygments.styles.trac',
+  ('pygments.styles.autumn',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\trac.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\autumn.py',
    'PYMODULE'),
-  ('pygments.styles.solarized',
+  ('pygments.styles.native',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\solarized.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\native.py',
    'PYMODULE'),
-  ('pygments.styles.pastie',
+  ('pygments.styles.inkpot',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\pastie.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\inkpot.py',
    'PYMODULE'),
-  ('pygments.styles.friendly',
+  ('pygments.styles.paraiso_light',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\friendly.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\paraiso_light.py',
    'PYMODULE'),
-  ('pygments.lexers.textfmts',
+  ('pygments.styles.perldoc',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\textfmts.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\perldoc.py',
+   'PYMODULE'),
+  ('pygments.styles.colorful',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\colorful.py',
+   'PYMODULE'),
+  ('pygments.styles.vim',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\vim.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_dark',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\stata_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_light',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\stata_light.py',
+   'PYMODULE'),
+  ('pygments.styles.manni',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\manni.py',
+   'PYMODULE'),
+  ('pygments.styles.sas',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\sas.py',
+   'PYMODULE'),
+  ('pygments.styles.fruity',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\fruity.py',
+   'PYMODULE'),
+  ('pygments.styles.xcode',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\xcode.py',
+   'PYMODULE'),
+  ('pygments.styles.algol',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\styles\\algol.py',
+   'PYMODULE'),
+  ('pygments.lexers.matlab',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\matlab.py',
    'PYMODULE'),
   ('pygments.lexer',
    'C:\\Users\\Nitro '
@@ -4166,437 +4006,261 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\filter.py',
    'PYMODULE'),
-  ('pygments.lexers.parasail',
+  ('pygments.lexers.tnt',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\parasail.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\tnt.py',
    'PYMODULE'),
-  ('pygments.lexers.teraterm',
+  ('pygments.lexers.other',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\teraterm.py',
-   'PYMODULE'),
-  ('pygments.lexers.roboconf',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\roboconf.py',
-   'PYMODULE'),
-  ('pygments.lexers.factor',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\factor.py',
-   'PYMODULE'),
-  ('pygments.lexers.dotnet',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\dotnet.py',
-   'PYMODULE'),
-  ('pygments.lexers.ml',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ml.py',
-   'PYMODULE'),
-  ('pygments.lexers.php',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\php.py',
-   'PYMODULE'),
-  ('pygments.lexers.matlab',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\matlab.py',
-   'PYMODULE'),
-  ('pygments.lexers.sieve',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\sieve.py',
-   'PYMODULE'),
-  ('pygments.lexers.console',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\console.py',
-   'PYMODULE'),
-  ('pygments.lexers._mapping',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_mapping.py',
-   'PYMODULE'),
-  ('pygments.lexers.basic',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\basic.py',
-   'PYMODULE'),
-  ('pygments.lexers.capnproto',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\capnproto.py',
-   'PYMODULE'),
-  ('pygments.lexers.rnc',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\rnc.py',
-   'PYMODULE'),
-  ('pygments.lexers.foxpro',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\foxpro.py',
-   'PYMODULE'),
-  ('pygments.lexers.ampl',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ampl.py',
-   'PYMODULE'),
-  ('pygments.lexers._mysql_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_mysql_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.fortran',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\fortran.py',
-   'PYMODULE'),
-  ('pygments.lexers.agile',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\agile.py',
-   'PYMODULE'),
-  ('pygments.lexers.varnish',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\varnish.py',
-   'PYMODULE'),
-  ('pygments.lexers.configs',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\configs.py',
-   'PYMODULE'),
-  ('pygments.lexers.business',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\business.py',
-   'PYMODULE'),
-  ('pygments.lexers.modeling',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\modeling.py',
-   'PYMODULE'),
-  ('pygments.lexers.testing',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\testing.py',
-   'PYMODULE'),
-  ('pygments.lexers.ooc',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ooc.py',
-   'PYMODULE'),
-  ('pygments.lexers._stan_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_stan_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.d',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\d.py',
-   'PYMODULE'),
-  ('pygments.lexers.parsers',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\parsers.py',
-   'PYMODULE'),
-  ('pygments.lexers.felix',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\felix.py',
-   'PYMODULE'),
-  ('pygments.lexers._cocoa_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_cocoa_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.email',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\email.py',
-   'PYMODULE'),
-  ('pygments.lexers.ncl',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ncl.py',
-   'PYMODULE'),
-  ('pygments.lexers.mime',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\mime.py',
-   'PYMODULE'),
-  ('pygments.lexers.rust',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\rust.py',
-   'PYMODULE'),
-  ('pygments.lexers.actionscript',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\actionscript.py',
-   'PYMODULE'),
-  ('pygments.lexers._tsql_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_tsql_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.webidl',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\webidl.py',
-   'PYMODULE'),
-  ('pygments.lexers.grammar_notation',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\grammar_notation.py',
-   'PYMODULE'),
-  ('pygments.lexers.html',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\html.py',
-   'PYMODULE'),
-  ('pygments.lexers.eiffel',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\eiffel.py',
-   'PYMODULE'),
-  ('pygments.lexers.smv',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\smv.py',
-   'PYMODULE'),
-  ('pygments.lexers.praat',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\praat.py',
-   'PYMODULE'),
-  ('pygments.lexers.trafficscript',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\trafficscript.py',
-   'PYMODULE'),
-  ('pygments.lexers._sourcemod_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_sourcemod_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.csound',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\csound.py',
-   'PYMODULE'),
-  ('pygments.lexers.typoscript',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\typoscript.py',
-   'PYMODULE'),
-  ('pygments.lexers.clean',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\clean.py',
-   'PYMODULE'),
-  ('pygments.lexers.tcl',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\tcl.py',
-   'PYMODULE'),
-  ('pygments.lexers.c_cpp',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\c_cpp.py',
-   'PYMODULE'),
-  ('pygments.lexers.ruby',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ruby.py',
-   'PYMODULE'),
-  ('pygments.lexers.idl',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\idl.py',
-   'PYMODULE'),
-  ('pygments.lexers.bibtex',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\bibtex.py',
-   'PYMODULE'),
-  ('pygments.lexers.julia',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\julia.py',
-   'PYMODULE'),
-  ('pygments.lexers.objective',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\objective.py',
-   'PYMODULE'),
-  ('pygments.lexers.monte',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\monte.py',
-   'PYMODULE'),
-  ('pygments.lexers.perl',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\perl.py',
-   'PYMODULE'),
-  ('pygments.lexers.yang',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\yang.py',
-   'PYMODULE'),
-  ('pygments.lexers.r',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\r.py',
-   'PYMODULE'),
-  ('pygments.lexers._lasso_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_lasso_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.make',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\make.py',
-   'PYMODULE'),
-  ('pygments.lexers.installers',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\installers.py',
-   'PYMODULE'),
-  ('pygments.lexers.arrow',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\arrow.py',
-   'PYMODULE'),
-  ('pygments.lexers.nimrod',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\nimrod.py',
-   'PYMODULE'),
-  ('pygments.lexers.graph',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\graph.py',
-   'PYMODULE'),
-  ('pygments.lexers.web',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\web.py',
-   'PYMODULE'),
-  ('pygments.lexers.j',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\j.py',
-   'PYMODULE'),
-  ('pygments.lexers.graphics',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\graphics.py',
-   'PYMODULE'),
-  ('pygments.lexers.javascript',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\javascript.py',
-   'PYMODULE'),
-  ('pygments.lexers._mql_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_mql_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers._stata_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_stata_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.ambient',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ambient.py',
-   'PYMODULE'),
-  ('pygments.lexers.markup',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\markup.py',
-   'PYMODULE'),
-  ('pygments.lexers.prolog',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\prolog.py',
-   'PYMODULE'),
-  ('pygments.lexers.stata',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\stata.py',
-   'PYMODULE'),
-  ('pygments.lexers.diff',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\diff.py',
-   'PYMODULE'),
-  ('pygments.lexers._scilab_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_scilab_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.mosel',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\mosel.py',
-   'PYMODULE'),
-  ('pygments.lexers._csound_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_csound_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.x10',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\x10.py',
-   'PYMODULE'),
-  ('pygments.lexers.scdoc',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\scdoc.py',
-   'PYMODULE'),
-  ('pygments.lexers.chapel',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\chapel.py',
-   'PYMODULE'),
-  ('pygments.lexers.int_fiction',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\int_fiction.py',
-   'PYMODULE'),
-  ('pygments.lexers.go',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\go.py',
-   'PYMODULE'),
-  ('pygments.lexers.qvt',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\qvt.py',
-   'PYMODULE'),
-  ('pygments.lexers.devicetree',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\devicetree.py',
-   'PYMODULE'),
-  ('pygments.lexers.solidity',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\solidity.py',
-   'PYMODULE'),
-  ('pygments.lexers.oberon',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\oberon.py',
-   'PYMODULE'),
-  ('pygments.lexers._asy_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_asy_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.pony',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\pony.py',
-   'PYMODULE'),
-  ('pygments.lexers.iolang',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\iolang.py',
-   'PYMODULE'),
-  ('pygments.lexers.compiled',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\compiled.py',
-   'PYMODULE'),
-  ('pygments.lexers.fantom',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\fantom.py',
-   'PYMODULE'),
-  ('pygments.lexers.dalvik',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\dalvik.py',
-   'PYMODULE'),
-  ('pygments.lexers.freefem',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\freefem.py',
-   'PYMODULE'),
-  ('pygments.lexers.supercollider',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\supercollider.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\other.py',
    'PYMODULE'),
   ('pygments.lexers.python',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\python.py',
    'PYMODULE'),
-  ('pygments.lexers.gdscript',
+  ('pygments.lexers.configs',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\gdscript.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\configs.py',
    'PYMODULE'),
-  ('pygments.lexers.special',
+  ('pygments.lexers.fortran',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\special.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\fortran.py',
    'PYMODULE'),
-  ('pygments.lexers.hdl',
+  ('pygments.lexers._sourcemod_builtins',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\hdl.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_sourcemod_builtins.py',
    'PYMODULE'),
-  ('pygments.lexers.ezhil',
+  ('pygments.lexers.erlang',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ezhil.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\erlang.py',
    'PYMODULE'),
-  ('pygments.lexers.asm',
+  ('pygments.lexers.markup',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\asm.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\markup.py',
    'PYMODULE'),
-  ('pygments.lexers.bare',
+  ('pygments.lexers.qvt',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\bare.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\qvt.py',
    'PYMODULE'),
-  ('pygments.lexers.archetype',
+  ('pygments.lexers.prolog',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\archetype.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\prolog.py',
    'PYMODULE'),
-  ('pygments.lexers.haxe',
+  ('pygments.lexers.lisp',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\haxe.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\lisp.py',
    'PYMODULE'),
-  ('pygments.lexers.forth',
+  ('pygments.lexers.eiffel',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\forth.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\eiffel.py',
+   'PYMODULE'),
+  ('pygments.lexers.promql',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\promql.py',
    'PYMODULE'),
   ('pygments.lexers.automation',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\automation.py',
    'PYMODULE'),
-  ('pygments.lexers._vbscript_builtins',
+  ('pygments.lexers.praat',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_vbscript_builtins.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\praat.py',
    'PYMODULE'),
-  ('pygments.lexers.slash',
+  ('pygments.lexers._mapping',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\slash.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_mapping.py',
+   'PYMODULE'),
+  ('pygments.lexers.robotframework',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\robotframework.py',
+   'PYMODULE'),
+  ('pygments.lexers.d',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\d.py',
+   'PYMODULE'),
+  ('pygments.lexers.nit',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\nit.py',
+   'PYMODULE'),
+  ('pygments.lexers.igor',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\igor.py',
+   'PYMODULE'),
+  ('pygments.lexers.felix',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\felix.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_cpp',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\c_cpp.py',
+   'PYMODULE'),
+  ('pygments.lexers.xorg',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\xorg.py',
+   'PYMODULE'),
+  ('pygments.lexers.smalltalk',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\smalltalk.py',
+   'PYMODULE'),
+  ('pygments.lexers.snobol',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\snobol.py',
+   'PYMODULE'),
+  ('pygments.lexers.dotnet',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\dotnet.py',
+   'PYMODULE'),
+  ('pygments.lexers._asy_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_asy_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.grammar_notation',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\grammar_notation.py',
+   'PYMODULE'),
+  ('pygments.lexers.objective',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\objective.py',
+   'PYMODULE'),
+  ('pygments.lexers.dylan',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\dylan.py',
+   'PYMODULE'),
+  ('pygments.lexers.scdoc',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\scdoc.py',
+   'PYMODULE'),
+  ('pygments.lexers.special',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\special.py',
+   'PYMODULE'),
+  ('pygments.lexers.resource',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\resource.py',
+   'PYMODULE'),
+  ('pygments.lexers.bibtex',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\bibtex.py',
+   'PYMODULE'),
+  ('pygments.lexers.sgf',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\sgf.py',
+   'PYMODULE'),
+  ('pygments.lexers.ampl',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ampl.py',
+   'PYMODULE'),
+  ('pygments.lexers.templates',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\templates.py',
+   'PYMODULE'),
+  ('pygments.lexers._mql_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_mql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.go',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\go.py',
+   'PYMODULE'),
+  ('pygments.lexers.boa',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\boa.py',
+   'PYMODULE'),
+  ('pygments.lexers.parsers',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\parsers.py',
+   'PYMODULE'),
+  ('pygments.lexers.pawn',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\pawn.py',
+   'PYMODULE'),
+  ('pygments.lexers.webidl',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\webidl.py',
+   'PYMODULE'),
+  ('pygments.lexers.installers',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\installers.py',
+   'PYMODULE'),
+  ('pygments.lexers.haskell',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\haskell.py',
+   'PYMODULE'),
+  ('pygments.lexers._php_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_php_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._lua_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_lua_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.monte',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\monte.py',
+   'PYMODULE'),
+  ('pygments.lexers.bare',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\bare.py',
+   'PYMODULE'),
+  ('pygments.lexers.arrow',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\arrow.py',
+   'PYMODULE'),
+  ('pygments.lexers._vim_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_vim_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._scilab_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_scilab_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.supercollider',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\supercollider.py',
+   'PYMODULE'),
+  ('pygments.lexers.modeling',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\modeling.py',
+   'PYMODULE'),
+  ('pygments.lexers.jvm',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\jvm.py',
+   'PYMODULE'),
+  ('pygments.lexers.textfmts',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\textfmts.py',
+   'PYMODULE'),
+  ('pygments.lexers.diff',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\diff.py',
+   'PYMODULE'),
+  ('pygments.lexers.parasail',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\parasail.py',
+   'PYMODULE'),
+  ('pygments.lexers.yang',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\yang.py',
+   'PYMODULE'),
+  ('pygments.lexers.ml',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ml.py',
+   'PYMODULE'),
+  ('pygments.lexers.clean',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\clean.py',
+   'PYMODULE'),
+  ('pygments.lexers.basic',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\basic.py',
+   'PYMODULE'),
+  ('pygments.lexers._tsql_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_tsql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.r',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\r.py',
    'PYMODULE'),
   ('pygments.lexers',
    'C:\\Users\\Nitro '
@@ -4606,125 +4270,297 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\modeline.py',
    'PYMODULE'),
-  ('pygments.lexers.webmisc',
+  ('pygments.lexers.text',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\webmisc.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\text.py',
    'PYMODULE'),
-  ('pygments.lexers.textedit',
+  ('pygments.lexers.make',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\textedit.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\make.py',
    'PYMODULE'),
-  ('pygments.lexers.robotframework',
+  ('pygments.lexers.teraterm',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\robotframework.py',
-   'PYMODULE'),
-  ('pygments.lexers.smalltalk',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\smalltalk.py',
-   'PYMODULE'),
-  ('pygments.lexers._usd_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_usd_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.modula2',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\modula2.py',
-   'PYMODULE'),
-  ('pygments.lexers.esoteric',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\esoteric.py',
-   'PYMODULE'),
-  ('pygments.lexers.xorg',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\xorg.py',
-   'PYMODULE'),
-  ('pygments.lexers.scripting',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\scripting.py',
-   'PYMODULE'),
-  ('pygments.lexers.promql',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\promql.py',
-   'PYMODULE'),
-  ('pygments.lexers.other',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\other.py',
-   'PYMODULE'),
-  ('pygments.lexers._openedge_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_openedge_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.inferno',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\inferno.py',
-   'PYMODULE'),
-  ('pygments.lexers._lua_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_lua_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers._cl_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_cl_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.igor',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\igor.py',
-   'PYMODULE'),
-  ('pygments.lexers.resource',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\resource.py',
-   'PYMODULE'),
-  ('pygments.lexers.math',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\math.py',
-   'PYMODULE'),
-  ('pygments.lexers.sgf',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\sgf.py',
-   'PYMODULE'),
-  ('pygments.lexers.unicon',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\unicon.py',
-   'PYMODULE'),
-  ('pygments.lexers.tnt',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\tnt.py',
-   'PYMODULE'),
-  ('pygments.lexers.pawn',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\pawn.py',
-   'PYMODULE'),
-  ('pygments.lexers.dylan',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\dylan.py',
-   'PYMODULE'),
-  ('pygments.lexers.pointless',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\pointless.py',
-   'PYMODULE'),
-  ('pygments.lexers.haskell',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\haskell.py',
-   'PYMODULE'),
-  ('pygments.lexers.sas',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\sas.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\teraterm.py',
    'PYMODULE'),
   ('pygments.lexers.sql',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\sql.py',
    'PYMODULE'),
-  ('pygments.lexers._vim_builtins',
+  ('pygments.lexers.hexdump',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_vim_builtins.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\hexdump.py',
+   'PYMODULE'),
+  ('pygments.lexers.archetype',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\archetype.py',
+   'PYMODULE'),
+  ('pygments.lexers.shell',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\shell.py',
+   'PYMODULE'),
+  ('pygments.lexers.rust',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\rust.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphics',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\graphics.py',
+   'PYMODULE'),
+  ('pygments.lexers._postgres_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_postgres_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.theorem',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\theorem.py',
+   'PYMODULE'),
+  ('pygments.lexers.solidity',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\solidity.py',
    'PYMODULE'),
   ('pygments.lexers.algebra',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\algebra.py',
    'PYMODULE'),
-  ('pygments.lexers.templates',
+  ('pygments.lexers.ruby',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\templates.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ruby.py',
+   'PYMODULE'),
+  ('pygments.lexers._mysql_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_mysql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.chapel',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\chapel.py',
+   'PYMODULE'),
+  ('pygments.lexers.actionscript',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\actionscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.x10',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\x10.py',
+   'PYMODULE'),
+  ('pygments.lexers.pony',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\pony.py',
+   'PYMODULE'),
+  ('pygments.lexers.tcl',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\tcl.py',
+   'PYMODULE'),
+  ('pygments.lexers.sieve',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\sieve.py',
+   'PYMODULE'),
+  ('pygments.lexers.data',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\data.py',
+   'PYMODULE'),
+  ('pygments.lexers.graph',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\graph.py',
+   'PYMODULE'),
+  ('pygments.lexers.esoteric',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\esoteric.py',
+   'PYMODULE'),
+  ('pygments.lexers.trafficscript',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\trafficscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.functional',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\functional.py',
+   'PYMODULE'),
+  ('pygments.lexers.crystal',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\crystal.py',
+   'PYMODULE'),
+  ('pygments.lexers.ooc',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ooc.py',
+   'PYMODULE'),
+  ('pygments.lexers.rebol',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\rebol.py',
+   'PYMODULE'),
+  ('pygments.lexers.julia',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\julia.py',
+   'PYMODULE'),
+  ('pygments.lexers.gdscript',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\gdscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_like',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\c_like.py',
+   'PYMODULE'),
+  ('pygments.lexers.mime',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\mime.py',
+   'PYMODULE'),
+  ('pygments.lexers.int_fiction',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\int_fiction.py',
+   'PYMODULE'),
+  ('pygments.lexers.email',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\email.py',
+   'PYMODULE'),
+  ('pygments.lexers._cl_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_cl_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.javascript',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\javascript.py',
+   'PYMODULE'),
+  ('pygments.lexers.iolang',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\iolang.py',
+   'PYMODULE'),
+  ('pygments.lexers.elm',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\elm.py',
+   'PYMODULE'),
+  ('pygments.lexers.fantom',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\fantom.py',
+   'PYMODULE'),
+  ('pygments.lexers.asm',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\asm.py',
+   'PYMODULE'),
+  ('pygments.lexers.verification',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\verification.py',
+   'PYMODULE'),
+  ('pygments.lexers.unicon',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\unicon.py',
+   'PYMODULE'),
+  ('pygments.lexers.sas',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\sas.py',
+   'PYMODULE'),
+  ('pygments.lexers.ezhil',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ezhil.py',
+   'PYMODULE'),
+  ('pygments.lexers.csound',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\csound.py',
+   'PYMODULE'),
+  ('pygments.lexers.compiled',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\compiled.py',
+   'PYMODULE'),
+  ('pygments.lexers.dalvik',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\dalvik.py',
+   'PYMODULE'),
+  ('pygments.lexers.idl',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\idl.py',
+   'PYMODULE'),
+  ('pygments.lexers.apl',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\apl.py',
+   'PYMODULE'),
+  ('pygments.lexers.web',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\web.py',
+   'PYMODULE'),
+  ('pygments.lexers.factor',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\factor.py',
+   'PYMODULE'),
+  ('pygments.lexers._stata_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_stata_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.ambient',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ambient.py',
+   'PYMODULE'),
+  ('pygments.lexers._usd_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_usd_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.business',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\business.py',
+   'PYMODULE'),
+  ('pygments.lexers.devicetree',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\devicetree.py',
+   'PYMODULE'),
+  ('pygments.lexers.modula2',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\modula2.py',
+   'PYMODULE'),
+  ('pygments.lexers.typoscript',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\typoscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.varnish',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\varnish.py',
+   'PYMODULE'),
+  ('pygments.lexers.capnproto',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\capnproto.py',
+   'PYMODULE'),
+  ('pygments.lexers._cocoa_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_cocoa_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.j',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\j.py',
+   'PYMODULE'),
+  ('pygments.lexers._openedge_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_openedge_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._stan_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_stan_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.php',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\php.py',
+   'PYMODULE'),
+  ('pygments.lexers.scripting',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\scripting.py',
+   'PYMODULE'),
+  ('pygments.lexers.stata',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\stata.py',
+   'PYMODULE'),
+  ('pygments.lexers._csound_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_csound_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.rdf',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\rdf.py',
+   'PYMODULE'),
+  ('pygments.lexers.perl',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\perl.py',
+   'PYMODULE'),
+  ('pygments.lexers.nimrod',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\nimrod.py',
+   'PYMODULE'),
+  ('pygments.lexers.slash',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\slash.py',
    'PYMODULE'),
   ('pygments.lexers.pascal',
    'C:\\Users\\Nitro '
@@ -4734,137 +4570,141 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\scanner.py',
    'PYMODULE'),
-  ('pygments.lexers.floscript',
+  ('pygments.lexers.forth',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\floscript.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\forth.py',
    'PYMODULE'),
-  ('pygments.lexers.zig',
+  ('pygments.lexers.testing',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\zig.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\testing.py',
    'PYMODULE'),
-  ('pygments.lexers.lisp',
+  ('pygments.lexers.foxpro',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\lisp.py',
-   'PYMODULE'),
-  ('pygments.lexers.elm',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\elm.py',
-   'PYMODULE'),
-  ('pygments.lexers.nix',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\nix.py',
-   'PYMODULE'),
-  ('pygments.lexers.rebol',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\rebol.py',
-   'PYMODULE'),
-  ('pygments.lexers.snobol',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\snobol.py',
-   'PYMODULE'),
-  ('pygments.lexers._php_builtins',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_php_builtins.py',
-   'PYMODULE'),
-  ('pygments.lexers.boa',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\boa.py',
-   'PYMODULE'),
-  ('pygments.lexers.functional',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\functional.py',
-   'PYMODULE'),
-  ('pygments.lexers.dsls',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\dsls.py',
-   'PYMODULE'),
-  ('pygments.lexers.verification',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\verification.py',
-   'PYMODULE'),
-  ('pygments.lexers.whiley',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\whiley.py',
-   'PYMODULE'),
-  ('pygments.lexers.theorem',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\theorem.py',
-   'PYMODULE'),
-  ('pygments.lexers.ride',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ride.py',
-   'PYMODULE'),
-  ('pygments.lexers.c_like',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\c_like.py',
-   'PYMODULE'),
-  ('pygments.lexers.nit',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\nit.py',
-   'PYMODULE'),
-  ('pygments.lexers.hexdump',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\hexdump.py',
-   'PYMODULE'),
-  ('pygments.lexers.apl',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\apl.py',
-   'PYMODULE'),
-  ('pygments.lexers.css',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\css.py',
-   'PYMODULE'),
-  ('pygments.lexers.jvm',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\jvm.py',
-   'PYMODULE'),
-  ('pygments.lexers.shell',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\shell.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\foxpro.py',
    'PYMODULE'),
   ('pygments.lexers.ecl',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ecl.py',
    'PYMODULE'),
-  ('pygments.lexers.text',
+  ('pygments.lexers.floscript',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\text.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\floscript.py',
    'PYMODULE'),
-  ('pygments.unistring',
+  ('pygments.lexers.textedit',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\unistring.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\textedit.py',
    'PYMODULE'),
-  ('pygments.lexers.data',
+  ('pygments.lexers._lasso_builtins',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\data.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_lasso_builtins.py',
    'PYMODULE'),
-  ('pygments.lexers.crystal',
+  ('pygments.lexers.css',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\crystal.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\css.py',
    'PYMODULE'),
-  ('pygments.lexers.erlang',
+  ('pygments.lexers.nix',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\erlang.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\nix.py',
+   'PYMODULE'),
+  ('pygments.lexers.webmisc',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\webmisc.py',
+   'PYMODULE'),
+  ('pygments.lexers.console',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\console.py',
+   'PYMODULE'),
+  ('pygments.lexers.rnc',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\rnc.py',
+   'PYMODULE'),
+  ('pygments.lexers._vbscript_builtins',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_vbscript_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.whiley',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\whiley.py',
    'PYMODULE'),
   ('pygments.lexers.usd',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\usd.py',
    'PYMODULE'),
-  ('pygments.lexers.rdf',
+  ('pygments.lexers.ride',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\rdf.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ride.py',
+   'PYMODULE'),
+  ('pygments.lexers.dsls',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\dsls.py',
+   'PYMODULE'),
+  ('pygments.lexers.mosel',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\mosel.py',
+   'PYMODULE'),
+  ('pygments.lexers.math',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\math.py',
+   'PYMODULE'),
+  ('pygments.lexers.ncl',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\ncl.py',
+   'PYMODULE'),
+  ('pygments.lexers.pointless',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\pointless.py',
+   'PYMODULE'),
+  ('pygments.lexers.haxe',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\haxe.py',
    'PYMODULE'),
   ('pygments.lexers.urbi',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\urbi.py',
    'PYMODULE'),
-  ('pygments.lexers._postgres_builtins',
+  ('pygments.lexers.smv',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\_postgres_builtins.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\smv.py',
    'PYMODULE'),
-  ('pygments.formatters.img',
+  ('pygments.lexers.freefem',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\img.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\freefem.py',
+   'PYMODULE'),
+  ('pygments.lexers.inferno',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\inferno.py',
+   'PYMODULE'),
+  ('pygments.lexers.zig',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\zig.py',
+   'PYMODULE'),
+  ('pygments.lexers.hdl',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\hdl.py',
+   'PYMODULE'),
+  ('pygments.lexers.roboconf',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\roboconf.py',
+   'PYMODULE'),
+  ('pygments.lexers.oberon',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\oberon.py',
+   'PYMODULE'),
+  ('pygments.lexers.html',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\html.py',
+   'PYMODULE'),
+  ('pygments.lexers.agile',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\lexers\\agile.py',
+   'PYMODULE'),
+  ('pygments.unistring',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\unistring.py',
+   'PYMODULE'),
+  ('pygments.formatters.irc',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\irc.py',
    'PYMODULE'),
   ('pygments.formatter',
    'C:\\Users\\Nitro '
@@ -4874,9 +4714,9 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\rtf.py',
    'PYMODULE'),
-  ('pygments.formatters',
+  ('pygments.formatters.svg',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\__init__.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\svg.py',
    'PYMODULE'),
   ('pygments.formatters.terminal256',
    'C:\\Users\\Nitro '
@@ -4886,37 +4726,37 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\console.py',
    'PYMODULE'),
+  ('pygments.formatters.terminal',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\terminal.py',
+   'PYMODULE'),
   ('pygments.formatters.bbcode',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\bbcode.py',
-   'PYMODULE'),
-  ('pygments.formatters.latex',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\latex.py',
-   'PYMODULE'),
-  ('pygments.formatters.irc',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\irc.py',
-   'PYMODULE'),
-  ('pygments.formatters.html',
-   'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\html.py',
    'PYMODULE'),
   ('pygments.formatters._mapping',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\_mapping.py',
    'PYMODULE'),
-  ('pygments.formatters.svg',
+  ('pygments.formatters',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\svg.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\__init__.py',
+   'PYMODULE'),
+  ('pygments.formatters.latex',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\latex.py',
    'PYMODULE'),
   ('pygments.formatters.other',
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\other.py',
    'PYMODULE'),
-  ('pygments.formatters.terminal',
+  ('pygments.formatters.img',
    'C:\\Users\\Nitro '
-   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\terminal.py',
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\img.py',
+   'PYMODULE'),
+  ('pygments.formatters.html',
+   'C:\\Users\\Nitro '
+   '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\pygments\\formatters\\html.py',
    'PYMODULE'),
   ('IPython.utils.coloransi',
    'C:\\Users\\Nitro '
@@ -6982,77 +6822,165 @@
    'C:\\Users\\Nitro '
    '5\\AppData\\Roaming\\Python\\Python39\\site-packages\\IPython\\terminal\\embed.py',
    'PYMODULE'),
-  ('pandas.io.formats.format',
+  ('pandas.io.common',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\common.py',
    'PYMODULE'),
-  ('pandas.io.formats.csvs',
+  ('pandas.core.reshape.concat',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
    'PYMODULE'),
-  ('pandas.io.formats.string',
+  ('pandas.core.indexes.timedeltas',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\string.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
    'PYMODULE'),
-  ('pandas.io.formats.html',
+  ('pandas.core.indexes.datetimes',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
    'PYMODULE'),
-  ('pandas.io.formats.latex',
+  ('pandas.core.indexes.api',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
    'PYMODULE'),
-  ('pandas.io.formats.css',
+  ('pandas.core.base',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\css.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\base.py',
    'PYMODULE'),
-  ('pandas.io.formats._color_data',
+  ('pandas.io.formats',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
-   'PYMODULE'),
-  ('pandas.core.common',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\common.py',
-   'PYMODULE'),
-  ('pandas.core.generic',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\generic.py',
-   'PYMODULE'),
-  ('pandas.io.pickle',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\pickle.py',
-   'PYMODULE'),
-  ('pandas.core',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\__init__.py',
-   'PYMODULE'),
-  ('pandas.core.dtypes.common',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
-   'PYMODULE'),
-  ('pandas.core.dtypes.missing',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
-   'PYMODULE'),
-  ('pandas.core.dtypes',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
-   'PYMODULE'),
-  ('pandas.util._decorators',
-   'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
    'PYMODULE'),
   ('pandas._typing',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_typing.py',
    'PYMODULE'),
-  ('pandas',
+  ('pandas._config.config',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\__init__.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\config.py',
    'PYMODULE'),
-  ('pandas._version',
+  ('pandas.core.ops.common',
    'c:\\users\\nitro '
-   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_version.py',
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pytz',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\__init__.py',
    'PYMODULE'),
   ('pandas.testing',
    'c:\\users\\nitro '
@@ -7061,6 +6989,22 @@
   ('pandas.util._tester',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\io\\json\\_json.py',
    'PYMODULE'),
   ('pandas.io.api',
    'c:\\users\\nitro '
@@ -7102,6 +7046,18 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\util\\_print_versions.py',
    'PYMODULE'),
+  ('pandas.api',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
   ('pandas.core.reshape.api',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\reshape\\api.py',
@@ -7110,13 +7066,57 @@
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\computation\\api.py',
    'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
   ('pandas.tseries.api',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\tseries\\api.py',
    'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
   ('pandas.core.config_init',
    'c:\\users\\nitro '
    '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'c:\\users\\nitro '
+   '5\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
    'PYMODULE'),
   ('tkinter.messagebox',
    'c:\\users\\nitro '
