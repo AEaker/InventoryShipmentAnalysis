@@ -145,8 +145,8 @@ def AllocationsForecastAndSupply(Allocations, Forecast,  mergedf):
      mergedf.loc[(mergedf["Part Number"] == "3CM061530 82V") & (mergedf["On Hand"] < CMKCount), "Allocation/Forecast Standing"] = "Less Parts Than Forecasted"
      mergedf.loc[(mergedf["Part Number"] == "3CM061530 82V") & (mergedf["On Hand"] > CMKCount), "Allocation/Forecast Standing"] = "More Parts Than Forecasted"
 
-     mergedf.loc[(mergedf["Part Number"] == "3CM061166 469") & (mergedf["On Hand"] < CMKCount), "Allocation/Forecast Standing"] = "Less Parts Than Forecasted"
-     mergedf.loc[(mergedf["Part Number"] == "3CM061166 469") & (mergedf["On Hand"] > CMKCount), "Allocation/Forecast Standing"] = "More Parts Than Forecasted"
+     mergedf.loc[(mergedf["Part Number"] == "3CM061166  469") & (mergedf["On Hand"] < CMKCount), "Allocation/Forecast Standing"] = "Less Parts Than Forecasted"
+     mergedf.loc[(mergedf["Part Number"] == "3CM061166  469") & (mergedf["On Hand"] > CMKCount), "Allocation/Forecast Standing"] = "More Parts Than Forecasted"
 
      mergedf.loc[(mergedf["Part Number"] == "000072548H") & (mergedf["On Hand"] < PPMCount), "Allocation/Forecast Standing"] = "Less Parts Than Forecasted"
      mergedf.loc[(mergedf["Part Number"] == "000072548H") & (mergedf["On Hand"] > PPMCount), "Allocation/Forecast Standing"] = "More Parts Than Forecasted"
