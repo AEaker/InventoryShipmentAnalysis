@@ -6,7 +6,7 @@ To Do List:
 
 ///add seperate output for imminent issues regarding inventory
 
-~~make executable
+~~make executable~~
 
 ///idk add some color maybe
 
