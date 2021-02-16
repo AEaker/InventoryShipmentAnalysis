@@ -4,7 +4,7 @@ Takes in current inventory count, previous usage, future allocations, and wareho
 
 To Do List:
 
-///add seperate output for imminent issues regarding inventory
+///add separate output for imminent issues regarding inventory
 
 ~~make executable~~
 
